@@ -27,6 +27,14 @@
 	flex-direction: row;
 }
 
+.gpt3__navbar-links_container a {
+	transition: all 0.3s ease 0s;
+}
+
+.gpt3__navbar-links_container a:hover {
+	color: #e64522;
+}
+
 .gpt3__navbar-sign {
 	display: flex;
 	justify-content: flex-end;
@@ -45,6 +53,11 @@
 
 	margin: 0 1rem;
 	cursor: pointer;
+	transition: all 0.3s ease 0s;
+}
+
+.gpt3__navbar-sign p:hover {
+	color: #e64522;
 }
 
 .gpt3__navbar-sign button,
